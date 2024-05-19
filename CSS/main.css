@@ -60,7 +60,7 @@ ul {
     height: 800px;
     padding-top: 50px;
     background-color: #265847;
-    background-image: url('/img/forest.jpg');
+    background-image: url('./img/forest.jpg');
     background-position: center;
     background-size: cover;
     color: #FFF;
@@ -84,7 +84,7 @@ ul {
     align-items: center;
     height: 100px;
     background-color: #265847;
-    background-image: url('/img/header-small-bg.jpg');
+    background-image: url('./img/header-small-bg.jpg');
     background-position: center;
     background-size: cover;
     color: #FFF;
@@ -197,7 +197,7 @@ ul {
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url(/img/arrow-down.svg );
+    background-image: url(./img/arrow-down.svg );
 }
 
 /*main*/
@@ -627,15 +627,15 @@ ul {
 }
 
 .contact-list-icon.phone::before {
-	background-image: url(/img/phone.svg)
+	background-image: url(./img/phone.svg)
 }
 
 .contact-list-icon.mail::before {
-	background-image: url(/img/mail.svg);
+	background-image: url(./img/mail.svg);
 }
 
 .contact-list-icon.address::before {
-	background-image: url(/img/map-pin.svg);
+	background-image: url(./img/map-pin.svg);
 }
 
 .form {
@@ -786,7 +786,7 @@ ul {
     width: 17px;
     height: 17px;
     transition: transform 0,2s ease-in;
-    background-image: url(/img/check.svg);
+    background-image: url(./img/check.svg);
     
 }
 
